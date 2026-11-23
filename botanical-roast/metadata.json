@@ -1,0 +1,6 @@
+{
+  "name": "Botanical Roast",
+  "description": "Artisanal specialty coffee storefront, Supabase authentication, Stripe coffee subscriptions, and real-time admin transaction reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
