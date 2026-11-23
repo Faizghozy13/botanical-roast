@@ -28,7 +28,7 @@ export function loadServerConfig(): ServerConfig {
   const sessionSecret = process.env.SESSION_SECRET?.trim() || fallbackSessionSecret;
 
   return {
-    port: 3000,
+    port: Number(process.env.PORT) || 3000,
     appUrl,
     supabaseUrl,
     supabaseAnonKey,
